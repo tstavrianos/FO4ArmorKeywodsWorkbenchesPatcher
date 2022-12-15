@@ -14,6 +14,8 @@ namespace FO4ArmorKeywodsWorkbenchesPatcher
         private static readonly HashSet<ModKey> Excluded = new()
         {
             ModKey.FromNameAndExtension("ArmorKeywords.esm"),
+            ModKey.FromNameAndExtension("Armorsmith Extended.esp"),
+            ModKey.FromNameAndExtension("Weaponsmith Extended 2.esp"),
             ModKey.FromNameAndExtension("ECO.esp"),
             ModKey.FromNameAndExtension("IDEKsLogisticsStation2.esl")
         };
