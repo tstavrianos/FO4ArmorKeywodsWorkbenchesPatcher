@@ -1,10 +1,12 @@
 {
-  "Nickname": "FO4ArmorKeywodsWorkbenchesPatcher",
+  "Nickname": "Armor Keywords Workbenches Patcher",
   "Visibility": "Visible",
-  "OneLineDescription": "",
-  "LongDescription": "",
+  "OneLineDescription": "Armor Keywords Workbenches Patcher",
+  "LongDescription": "Modifies recipes to use the AWKCR workbenches",
   "PreferredAutoVersioning": "Default",
-  "RequiredMods": [],
+  "RequiredMods": [
+    "ArmorKeywords.esm"
+  ],
   "TargetedReleases": [
     "Fallout4"
   ]
